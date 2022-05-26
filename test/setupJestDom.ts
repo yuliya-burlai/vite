@@ -4,7 +4,7 @@ import {configure} from '@testing-library/react';
 import {server} from './helpers/server';
 beforeAll(() =>
     server.listen({
-        onUnhandledRequest(req) {
+        onUnhandledRequest(req: any) {
             console.error('Found an unhandled %s request to %s', req.method, req.url.href);
         },
     }),

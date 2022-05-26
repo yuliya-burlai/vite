@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom/extend-expect';
-import {configure} from 'testing-library/react';
+import {configure} from '@testing-library/react';
 
 import {server} from './helpers/server';
 beforeAll(() =>

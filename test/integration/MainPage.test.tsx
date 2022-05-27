@@ -9,7 +9,7 @@ describe('MainPage', () => {
   it('displays posts headers', async () => {
     renderWithContexts(<MainPage />, { reactQuery: true});
 
-    expect(await screen.findByText('Hello Vite + React 18!')).toBeInTheDocument();
+    expect(await screen.findByText('Hello Vite + Vitest + React 18!')).toBeInTheDocument();
 
     expect(await screen.findByText('First post')).toBeInTheDocument();
     expect(await screen.findByText('Second post')).toBeInTheDocument();

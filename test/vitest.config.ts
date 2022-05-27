@@ -1,7 +1,5 @@
 import {defineConfig} from 'vitest/config';
 
-const IS_CI = Boolean(process.env.CI);
-
 export default defineConfig({
     test: {
         globals: true,
@@ -12,7 +10,7 @@ export default defineConfig({
         reporters: ['default', 'junit'],
         outputFile: './reports/junit.xml',
         coverage: {
-            enabled: IS_CI,
+            enabled: false,
             reporter: 'lcov',
             reportsDirectory: 'coverage',
             cleanOnRerun: true,

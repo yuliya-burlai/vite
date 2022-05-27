@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+    <testsuite name="test/integration/MainPage.test.tsx" timestamp="2022-05-27T11:27:49.870Z" hostname="HLT050640" tests="2" failures="0" errors="0" skipped="0" time="0.1480000000">
+        <testcase classname="test/integration/MainPage.test.tsx" name="MainPage &gt; displays posts headers" time="0.1180000000">
+            <system-out>
+handler
+
+            </system-out>
+        </testcase>
+        <testcase classname="test/integration/MainPage.test.tsx" name="MainPage &gt; displays posts texts" time="0.0280000000">
+            <system-out>
+handler
+
+            </system-out>
+        </testcase>
+    </testsuite>
+</testsuites>
